@@ -1,2 +1,2 @@
 # CSU-ULMS-iOS
-Android App Skin for CSU Libraries using the ULMS.
+iOS App Skin for CSU Libraries using the ULMS.
