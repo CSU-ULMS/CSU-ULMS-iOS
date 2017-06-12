@@ -26,7 +26,7 @@
     
 }
 
--(void)pacSearchViewController {
+-(void)primoSearchViewController {
     //ENTER YOUR LIBRARY'S URL HERE:
     NSURL *URL = [NSURL URLWithString:@"http://m.libpac.sdsu.edu"];
     SVModalWebViewController *webViewController = [[SVModalWebViewController alloc] initWithURL:URL];
@@ -35,7 +35,7 @@
     [self presentViewController:webViewController animated:YES completion:NULL];
 }
 
--(void)xerxesSearchViewController {
+-(void)websiteDisplayViewController {
     
     //ENTER YOUR LIBRARY'S URL HERE:
     NSURL *URL = [NSURL URLWithString:@"http://library.calstate.edu/sandiego/articles/"];
@@ -46,13 +46,7 @@
 }
 
 
--(void)readingListController {
-    NSURL *URL = [NSURL URLWithString:@"https://library.calstate.edu/sandiego/authenticate/login?return=%2Fsandiego%2F&is_mobile=0"];
-    SVModalWebViewController *webViewController = [[SVModalWebViewController alloc] initWithURL:URL];
-    webViewController.modalPresentationStyle = UIModalPresentationPageSheet;
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self presentViewController:webViewController animated:YES completion:NULL];
-}
+
 
 
 

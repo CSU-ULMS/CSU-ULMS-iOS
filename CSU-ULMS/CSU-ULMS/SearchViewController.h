@@ -10,8 +10,8 @@
 
 @interface SearchViewController : UIViewController
 
--(IBAction)pacSearchViewController;
--(IBAction)xerxesSearchViewController;
--(IBAction)readingListController;
+-(IBAction)primoSearchViewController;
+-(IBAction)websiteDisplayViewController;
+
 
 @end
